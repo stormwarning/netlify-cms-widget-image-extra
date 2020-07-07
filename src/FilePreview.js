@@ -1,8 +1,9 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+
 import styled from '@emotion/styled'
 import { List } from 'immutable'
 import { WidgetPreviewContainer } from 'netlify-cms-ui-default'
+import PropTypes from 'prop-types'
 
 const FileLink = styled(({ href, path }) => (
     <a href={href} rel="noopener noreferrer" target="_blank">

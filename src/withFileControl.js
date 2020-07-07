@@ -1,20 +1,21 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import ImmutablePropTypes from 'react-immutable-proptypes'
+
 import styled from '@emotion/styled'
-import { Map, List } from 'immutable'
-import { once } from 'lodash'
-import uuid from 'uuid/v4'
 import { oneLine } from 'common-tags'
+import { List, Map } from 'immutable'
+import { once } from 'lodash'
+import { basename } from 'netlify-cms-lib-util'
 import {
-    lengths,
-    components,
-    buttons,
     borders,
+    buttons,
+    components,
     effects,
+    lengths,
     shadows,
 } from 'netlify-cms-ui-default'
-import { basename } from 'netlify-cms-lib-util'
+import PropTypes from 'prop-types'
+import ImmutablePropTypes from 'react-immutable-proptypes'
+import uuid from 'uuid/v4'
 
 const MAX_DISPLAY_LENGTH = 50
 
